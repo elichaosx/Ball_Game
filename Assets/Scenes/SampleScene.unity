@@ -341,7 +341,11 @@ MonoBehaviour:
         m_SelectedSource:
           rid: -2
         m_Provider2DCache:
-          rid: -2
+          rid: 4296433107170492416
+    - rid: 4296433107170492416
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache: []
 --- !u!4 &619394802
 Transform:
   m_ObjectHideFlags: 0
@@ -444,6 +448,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1523951761775948912, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+      propertyPath: _canvasRectTransform
+      value: 
+      objectReference: {fileID: 5514852901778003256}
     - target: {fileID: 2408660109576234127, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -533,6 +541,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+--- !u!224 &5514852901778003256 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6587943180602208688, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+  m_PrefabInstance: {fileID: 5514852901778003255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
