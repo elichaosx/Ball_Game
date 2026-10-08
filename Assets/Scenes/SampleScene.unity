@@ -524,6 +524,22 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7628272107592433343, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+      propertyPath: _id
+      value: settingsui
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628272107592433343, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+      propertyPath: _canvasGroup
+      value: 
+      objectReference: {fileID: 5514852901778003257}
+    - target: {fileID: 7628272107592433343, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+      propertyPath: _hideOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628272107592433343, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+      propertyPath: _canvasRectTransform
+      value: 
+      objectReference: {fileID: 5514852901778003256}
     - target: {fileID: 7768175605871927592, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -544,6 +560,11 @@ PrefabInstance:
 --- !u!224 &5514852901778003256 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6587943180602208688, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
+  m_PrefabInstance: {fileID: 5514852901778003255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &5514852901778003257 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 1345269981637877747, guid: 4f9afa376e3b1f24eba3f9040c3b568d, type: 3}
   m_PrefabInstance: {fileID: 5514852901778003255}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
